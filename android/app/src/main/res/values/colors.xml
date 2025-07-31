@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#17A0DB</color>
-    <color name="navigationBarColor">#161618</color>
+    <color name="colorPrimary">#1E3A8A</color>
+    <color name="navigationBarColor">#1E3A8A</color>
+    <color name="trisulaPrimary">#1E3A8A</color>
+    <color name="trisulaSecondary">#3B82F6</color>
+    <color name="trisulaAccent">#FFFFFF</color>
 </resources>

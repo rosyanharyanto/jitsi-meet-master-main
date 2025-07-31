@@ -151,6 +151,11 @@ public class MainActivity extends JitsiMeetActivity {
     }
 
     private void setJitsiMeetConferenceDefaultOptions() {
+        // Use fallback server URL if restrictions did not provide one.
+        if (defaultURL == null || defaultURL.isEmpty()) {
+            defaultURL = "https://trisula-meet.tnial.mil.id";
+            Log.d(this.getClass().getSimpleName(), "Using fallback server URL: " + defaultURL);
+        }
 
         // Set default options
         JitsiMeetConferenceOptions defaultOptions

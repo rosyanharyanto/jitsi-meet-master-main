@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="100dp"
+    android:viewportWidth="300"
+    android:viewportHeight="100">
+    <group>
+        <path
+            android:fillColor="#d0a102"
+            android:pathData="M10,80 L290,80" />
+        <text
+            android:x="150"
+            android:y="40"
+            android:text="KDN-KYN-032025"
+            android:textSize="18"
+            android:textColor="#d0a102"
+            android:textAlign="center"
+            android:fontFamily="sans-serif-medium"/>
+        <text
+            android:x="150"
+            android:y="80"
+            android:text="© DISINFOLAHTAL 2025"
+            android:textSize="18"
+            android:textColor="#d0a102"
+            android:textAlign="center"
+            android:fontFamily="sans-serif-medium"/>
+    </group>
+</vector>
