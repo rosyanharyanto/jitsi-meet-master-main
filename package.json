@@ -1,19 +1,19 @@
 {
-  "name": "jitsi-meet",
+  "name": "trisula-meet",
   "version": "0.0.0",
-  "description": "A sample app for the Jitsi Videobridge",
+  "description": "A sample app for the Trisula Meet Videobridge",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/jitsi/jitsi-meet"
+    "url": "git://github.com/rosyanharyanto/trisula-meet"
   },
   "keywords": [
-    "jingle",
-    "webrtc",
-    "xmpp",
-    "browser"
+    "trisula",
+    "tni-al",
+    "videobridge",
+    "conference"
   ],
-  "author": "",
+  "author": "TNI AL",
   "readmeFilename": "README.md",
   "dependencies": {
     "@amplitude/analytics-browser": "2.17.12",
